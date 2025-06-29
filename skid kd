@@ -1,4 +1,4 @@
--- skidstal dance skidded by val (@s41nt.gt on discord)
+-- skidstal Dance skidded by val (s41nt.gt on discord)
 if not isfolder("Dances") then 
     makefolder("Dances")
     end
@@ -16,9 +16,9 @@ local coolparticles = is:LoadLocalAsset("rbxassetid://87299663038091").ParticleA
 coolparticles.Parent = randompart
 local playbacktrack = true 
 local script = Instance.new("LocalScript")
-local OxideApi = loadstring(game:"https://github.com/saint-isme/skid-api.git"))()
+local OxideApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/sparezirt/Utility/refs/heads/main/.github/SonixApi"))()
 local timeposcur = 0 
-OxideApi.Notification("skidstal Dance Skidded by Val (@s41nt.gt on discord)",10)
+OxideApi.Notification("skidstal Dance, skided by val (s41nt.gt on discord)",10)
 local playanother = false
 local playing = false
 local dancing = false
@@ -1509,4 +1509,4 @@ else
     idle = false 
 end
 end)
---sonix is a stupid nigger - val
+--sonixery is a stupid nigger -val
